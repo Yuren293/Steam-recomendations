@@ -1,26 +1,26 @@
 ### Описание задачи
-В качестве данных для рекомендательной системы взята информация о количестве игрового времени пользователей с игровой платформы Steam с описаниями игр.
+As data for the recommendation system, information about the amount of playing time of users from the Steam gaming platform with game descriptions is taken.
 
-В файле steam-200k.csv представлена информация о пользователях и играх, которые он приобрел и играет, а также количество игрового времени в них.    
-Файл steam.csv представляет собой описание игр, включающее название, дату релиза, жанр игр, разработчиков и так далее.   
-Файл steam_description_data.csv содержит текстовое рекламное описание игр.     
+The file steam-200k.csv contains information about users and the games they have purchased and are playing, as well as the amount of playing time in them.    
+The file steam.csv is a description of the games, including the name, release date, genre of games, developers, and so on.   
+The file steam_description_data.csv contains a text advertising description of the games.     
 
-Источники данных:   
+Source data:   
 https://www.kaggle.com/nikdavis/steam-store-games   
 https://www.kaggle.com/tamber/steam-video-games
 
-В качестве метрики качества классификации используется mean average precision@k.
+Mean average precision@k is used as a classification quality metric.
 
-Данная работа состоит из следующих частей:
+This work consists of the following parts:
 
-1) Работа с данными   
-2) Разделение данных на train/test   
-3) Метрика качества рекомендаций   
-4) Popular base подход   
+1) Data preprocessing   
+2) Splitting data into train/test  
+3) Recommendation quality metric   
+4) Popular base approach   
 5) FM   
-6) Content base подход   
-6.1) Подготовка векторных представлений   
+6) Content base approach   
+6.1) Preparation of vector representations   
 6.2) Word2Vec   
 6.3) TF-IDF   
 7). LightFM + text   
-8). Сравнение рекомендаций   
+8). Comparison of recommendations   

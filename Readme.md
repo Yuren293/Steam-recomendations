@@ -22,5 +22,5 @@ This work consists of the following parts:
 6.1) Preparation of vector representations   
 6.2) Word2Vec   
 6.3) TF-IDF   
-7). LightFM + text   
-8). Comparison of recommendations   
+7. LightFM + text   
+8. Comparison of recommendations   

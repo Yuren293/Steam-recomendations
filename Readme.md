@@ -1,4 +1,4 @@
-### Описание задачи
+### Task description
 As data for the recommendation system, information about the amount of playing time of users from the Steam gaming platform with game descriptions is taken.
 
 The file steam-200k.csv contains information about users and the games they have purchased and are playing, as well as the amount of playing time in them.    
